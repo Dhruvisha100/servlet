@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <context-param>
+        <param-name>name</param-name>
+        <param-value>Dhruvisha</param-value>
+    </context-param>
+    <context-param>
+        <param-name>contect-value</param-name>
+        <param-value>Vara</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>Pro1Simple</servlet-name>
+        <servlet-class>Pro1Simple</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro2GenericServlet</servlet-name>
+        <servlet-class>Pro2GenericServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro4Request</servlet-name>
+        <servlet-class>Pro4Request</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro5Login</servlet-name>
+        <servlet-class>Pro5Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro5WelcomeServlet</servlet-name>
+        <servlet-class>Pro5WelcomeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro6SendRedirct</servlet-name>
+        <servlet-class>Pro6SendRedirct</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro7SendReditect</servlet-name>
+        <servlet-class>Pro7SendReditect</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro8config</servlet-name>
+        <servlet-class>Pro8config</servlet-class>
+        <init-param>
+            <param-name>driver</param-name>
+            <param-value>Dhruvisha</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro9Config</servlet-name>
+        <servlet-class>Pro9Config</servlet-class>
+        <init-param>
+            <param-name>firstname</param-name>
+            <param-value>Dhruvisha</param-value>
+        </init-param>
+        <init-param>
+            <param-name>lastname</param-name>
+            <param-value>Vara</param-value>
+        </init-param>
+        <init-param>
+            <param-name>email</param-name>
+            <param-value>varadhruvisha@gmail.com</param-value>
+        </init-param>
+        <init-param>
+            <param-name>contact</param-name>
+            <param-value>9265538440</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro10Context</servlet-name>
+        <servlet-class>Pro10Context</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro11Context</servlet-name>
+        <servlet-class>Pro11Context</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro12Cookies1</servlet-name>
+        <servlet-class>Pro12Cookies1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Pro12Cookies2</servlet-name>
+        <servlet-class>Pro12Cookies2</servlet-class>
+    </servlet>
+    <servlet>
+        <description/>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.javatpoint.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description/>
+        <display-name>ProfileServlet</display-name>
+        <servlet-name>ProfileServlet</servlet-name>
+        <servlet-class>com.javatpoint.ProfileServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description/>
+        <display-name>LogoutServlet</display-name>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.javatpoint.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Pro1Simple</servlet-name>
+        <url-pattern>/Simple</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro2GenericServlet</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro4Request</servlet-name>
+        <url-pattern>/request</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro5Login</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro5WelcomeServlet</servlet-name>
+        <url-pattern>/dispatcher</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro6SendRedirct</servlet-name>
+        <url-pattern>/sendRed</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro7SendReditect</servlet-name>
+        <url-pattern>/sendRedit7</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro8config</servlet-name>
+        <url-pattern>/config</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro9Config</servlet-name>
+        <url-pattern>/config9</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro10Context</servlet-name>
+        <url-pattern>/context</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro11Context</servlet-name>
+        <url-pattern>/context11</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro12Cookies1</servlet-name>
+        <url-pattern>/cookies1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Pro12Cookies2</servlet-name>
+        <url-pattern>/cookies2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProfileServlet</servlet-name>
+        <url-pattern>/ProfileServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>  
+<servlet-name>Pro13Hidden1</servlet-name>  
+<servlet-class>Pro13Hidden1</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>Pro13Hidden1</servlet-name>  
+<url-pattern>/hidden1</url-pattern>  
+</servlet-mapping>  
+  
+<servlet>  
+<servlet-name>Pro13Hidden2</servlet-name>  
+<servlet-class>Pro13Hidden2</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>Pro13Hidden2</servlet-name>  
+<url-pattern>/hidden2</url-pattern>  
+</servlet-mapping>
+    
+<servlet>  
+<servlet-name>Pro17Filter2</servlet-name>  
+<servlet-class>Pro17Filter2</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>Pro17Filter2</servlet-name>  
+<url-pattern>/servlet1</url-pattern>  
+</servlet-mapping>  
+  
+<filter>  
+<filter-name>Pro17Filter1</filter-name>  
+<filter-class>Pro17Filter1</filter-class>  
+</filter>  
+   
+<filter-mapping>  
+<filter-name>Pro17Filter1</filter-name>  
+<url-pattern>/servlet1</url-pattern>  
+</filter-mapping>  
+   
+    
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
